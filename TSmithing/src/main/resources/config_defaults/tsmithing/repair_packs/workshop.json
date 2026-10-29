@@ -1,0 +1,9 @@
+{
+  "id": "tsmithing:workshop_repair_pack",
+  "type": "tsmithing:repair_pack",
+  "display_name": "工坊维修包",
+  "item": "tsmithing:workshop_repair_pack",
+  "repair_amount": 60,
+  "repair_cost_multiplier": 0.8,
+  "over_spec_armor": false
+}

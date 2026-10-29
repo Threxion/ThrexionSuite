@@ -1,0 +1,13 @@
+{
+  "id": "talchemy:salt",
+  "type": "talchemy:catalyst",
+  "item": "minecraft:sugar",
+  "consumed": false,
+  "modifiers": [
+    {
+      "property": "talchemy:heal",
+      "operation": "add",
+      "amount": 1.0
+    }
+  ]
+}

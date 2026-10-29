@@ -1,0 +1,7 @@
+{
+  "id": "tvitality:arrow",
+  "type": "tvitality:stamina_consumption",
+  "action": "arrow",
+  "enabled": false,
+  "amount": 0
+}

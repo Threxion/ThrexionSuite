@@ -1,0 +1,7 @@
+{
+  "id": "tvitality:jump",
+  "type": "tvitality:stamina_consumption",
+  "action": "jump",
+  "enabled": false,
+  "amount": 0
+}

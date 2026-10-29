@@ -1,0 +1,14 @@
+{
+  "id": "talchemy:example_beetroot_soup_crafting_expiration",
+  "type": "talchemy:recipe",
+  "process": "example:crafting",
+  "is_medicine": false,
+  "input": "minecraft:beetroot",
+  "input_count": 6,
+  "container_input": "minecraft:bowl",
+  "container_input_count": 1,
+  "output": "minecraft:beetroot_soup",
+  "output_count": 1,
+  "expiration_days": 3,
+  "show_expiration_in_lore": true
+}

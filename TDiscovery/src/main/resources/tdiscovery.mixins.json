@@ -1,0 +1,9 @@
+{
+  "required": true,
+  "minVersion": "0.8.5",
+  "package": "Threxion.tdiscovery.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "tdiscovery.refmap.json",
+  "mixins": ["ServerPlayerRecipeMixin"],
+  "client": []
+}

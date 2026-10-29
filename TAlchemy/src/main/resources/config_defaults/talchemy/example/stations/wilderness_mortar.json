@@ -1,0 +1,9 @@
+{
+  "id": "example:wilderness_mortar",
+  "type": "talchemy:station",
+  "block": "example:wilderness_mortar_block",
+  "display_name": "荒野研钵",
+  "process": "example:process_a",
+  "tier_enabled": true,
+  "tier": "talchemy:wilderness"
+}

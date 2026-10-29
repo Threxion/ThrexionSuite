@@ -1,0 +1,8 @@
+{
+  "id": "tvitality:normal_1",
+  "type": "tvitality:stamina_stage",
+  "display_name": "正常体力 1",
+  "min": 600,
+  "max": 799,
+  "movement_speed_multiplier": 1.0
+}

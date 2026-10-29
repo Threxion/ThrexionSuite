@@ -1,0 +1,10 @@
+{
+  // 示例：超规格维修材料不需要专用 Java 物品类，原版红砖也可以直接承担这个用途。
+  "id": "tsmithing:brick_over_spec_example",
+  "type": "tsmithing:repair_pack",
+  "display_name": "红砖超规格维修材料（示例）",
+  "item": "minecraft:brick",
+  "repair_amount": 20,
+  "repair_cost_multiplier": 1.5,
+  "over_spec_armor": true
+}

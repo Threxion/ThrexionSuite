@@ -1,0 +1,7 @@
+{
+  "id": "tvitality:movement",
+  "type": "tvitality:stamina_consumption",
+  "action": "movement",
+  "enabled": false,
+  "amount": 0
+}

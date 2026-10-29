@@ -1,0 +1,7 @@
+{
+  "id": "tvitality:swim",
+  "type": "tvitality:stamina_consumption",
+  "action": "swim",
+  "enabled": false,
+  "amount": 0
+}

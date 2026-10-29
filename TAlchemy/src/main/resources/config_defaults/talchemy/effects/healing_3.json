@@ -1,0 +1,16 @@
+{
+  "id": "talchemy:healing_3",
+  "type": "talchemy:effect",
+  "display_name": "治疗 3",
+  "property_modifiers": [],
+  "potion_effects": [
+    {
+      "effect": "minecraft:regeneration",
+      "duration_ticks": 400,
+      "amplifier": 1,
+      "ambient": false,
+      "show_particles": true,
+      "show_icon": true
+    }
+  ]
+}

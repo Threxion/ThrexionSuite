@@ -1,0 +1,10 @@
+{
+  "id": "tvitality:baked_potato_meal",
+  "type": "tvitality:food",
+  "enabled": true,
+  "item": "minecraft:baked_potato",
+  "category": "meal",
+  "duration_seconds": 9000,
+  "stamina_restore": 0,
+  "effects": []
+}

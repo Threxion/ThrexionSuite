@@ -1,0 +1,5 @@
+{
+  "max_allergens": 1,
+  "min_allergens": 0,
+  "allergen_assignment_chance": 0.15
+}

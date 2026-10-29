@@ -1,0 +1,6 @@
+{
+  "id": "tvitality:stamina_settings",
+  "type": "tvitality:stamina_settings",
+  "max": 1000,
+  "initial": 1000
+}

@@ -1,0 +1,7 @@
+{
+  "id": "tvitality:tool_use",
+  "type": "tvitality:stamina_consumption",
+  "action": "tool_use",
+  "enabled": false,
+  "amount": 0
+}

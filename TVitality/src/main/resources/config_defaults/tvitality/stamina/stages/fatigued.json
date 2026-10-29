@@ -1,0 +1,8 @@
+{
+  "id": "tvitality:fatigued",
+  "type": "tvitality:stamina_stage",
+  "display_name": "疲劳",
+  "min": 0,
+  "max": 399,
+  "movement_speed_multiplier": 0.75
+}

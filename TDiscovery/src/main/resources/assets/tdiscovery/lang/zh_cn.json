@@ -1,0 +1,11 @@
+{
+  "key.tdiscovery.open": "打开 TDiscovery 图鉴",
+  "key.categories.tdiscovery": "TDiscovery",
+  "screen.tdiscovery.codex": "TDiscovery 图鉴",
+  "screen.tdiscovery.submit": "提交发现",
+  "screen.tdiscovery.no_submit": "背包中没有可提交的已定义物品",
+  "button.tdiscovery.submit": "提交",
+  "button.tdiscovery.back_codex": "返回图鉴",
+  "button.tdiscovery.discover_held": "提交手中物品",
+  "message.tdiscovery.submitted": "已提交发现"
+}

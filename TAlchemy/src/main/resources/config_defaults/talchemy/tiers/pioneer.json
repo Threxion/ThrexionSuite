@@ -1,0 +1,9 @@
+{
+  "id": "talchemy:pioneer",
+  "type": "talchemy:process_tier",
+  "display_name": "开拓者",
+  "failure_chance_multiplier": 0.60,
+  "batch_count": 3,
+  "recipe_allowed": true,
+  "property_modifiers": []
+}

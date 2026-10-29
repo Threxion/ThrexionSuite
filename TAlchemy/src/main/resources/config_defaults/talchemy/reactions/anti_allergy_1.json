@@ -1,0 +1,9 @@
+{
+  "id": "talchemy:anti_allergy_1",
+  "type": "talchemy:reaction",
+  "display_name": "抗过敏 1",
+  "potency": "talchemy:anti_allergy",
+  "threshold": 50,
+  "effect": "talchemy:anti_wheat",
+  "priority": 0
+}

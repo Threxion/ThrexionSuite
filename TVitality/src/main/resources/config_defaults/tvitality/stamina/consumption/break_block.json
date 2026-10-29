@@ -1,0 +1,7 @@
+{
+  "id": "tvitality:break_block",
+  "type": "tvitality:stamina_consumption",
+  "action": "break_block",
+  "enabled": true,
+  "amount": 1
+}

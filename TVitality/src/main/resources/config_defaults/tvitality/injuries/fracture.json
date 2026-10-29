@@ -1,0 +1,10 @@
+{
+  "id": "tvitality:fracture",
+  "type": "tvitality:injury",
+  "display_name": "骨折",
+  "severity": 1,
+  "doctor_treatment": {
+    "enabled": true,
+    "cost": {"item": "minecraft:gold_ingot", "count": 2}
+  }
+}

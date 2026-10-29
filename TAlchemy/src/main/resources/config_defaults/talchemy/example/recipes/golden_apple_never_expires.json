@@ -1,0 +1,14 @@
+{
+  "id": "talchemy:example_golden_apple_never_expires",
+  "type": "talchemy:recipe",
+  "process": "example:crafting",
+  "is_medicine": false,
+  "input": "minecraft:gold_ingot",
+  "input_count": 8,
+  "container_input": "minecraft:apple",
+  "container_input_count": 1,
+  "output": "minecraft:golden_apple",
+  "output_count": 1,
+  "expiration_days": -1,
+  "show_expiration_in_lore": true
+}

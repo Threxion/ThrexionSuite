@@ -1,0 +1,43 @@
+{
+  "id": "tquality:wheat",
+  "type": "tquality:grade",
+  "display_name": "小麦品质",
+  "grades": [
+    {
+      "id": "D",
+      "display_name": "D",
+      "order": 0,
+      "properties": {
+        "tquality:quality_multiplier": 1.0,
+        "talchemy:heal": 80
+      }
+    },
+    {
+      "id": "C",
+      "display_name": "C",
+      "order": 1,
+      "properties": {
+        "tquality:quality_multiplier": 1.0,
+        "talchemy:heal": 100
+      }
+    },
+    {
+      "id": "B",
+      "display_name": "B",
+      "order": 2,
+      "properties": {
+        "tquality:quality_multiplier": 1.0,
+        "talchemy:heal": 110
+      }
+    },
+    {
+      "id": "A",
+      "display_name": "A",
+      "order": 3,
+      "properties": {
+        "tquality:quality_multiplier": 1.0,
+        "talchemy:heal": 130
+      }
+    }
+  ]
+}

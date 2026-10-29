@@ -1,0 +1,16 @@
+{
+  "id": "tsmithing:iron_chestplate",
+  "type": "tsmithing:formation",
+  "display_name": "铁胸甲",
+  "result_item": "minecraft:iron_chestplate",
+  "materials": [
+    {"item": "minecraft:iron_ingot", "material": "tsmithing:iron", "count": 8}
+  ],
+  "tqeff": {
+    "tsmithing:softness": 100,
+    "tsmithing:toughness": 100,
+    "tsmithing:hardness": 100,
+    "tsmithing:weight": 100,
+    "tsmithing:durability": 100
+  }
+}

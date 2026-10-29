@@ -1,0 +1,16 @@
+{
+  "id": "tsmithing:iron_sword",
+  "type": "tsmithing:formation",
+  "display_name": "铁剑",
+  "result_item": "minecraft:iron_sword",
+  "materials": [
+    {"item": "minecraft:iron_ingot", "material": "tsmithing:iron", "count": 2},
+    {"item": "minecraft:stick", "material": "tsmithing:wood", "count": 1}
+  ],
+  "tqeff": {
+    "tsmithing:durability": 100,
+    "tsmithing:toughness": 50,
+    "tsmithing:hardness": 0,
+    "tsmithing:weight": 100
+  }
+}

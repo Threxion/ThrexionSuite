@@ -1,0 +1,16 @@
+{
+  "id": "talchemy:healing_ii",
+  "type": "talchemy:effect",
+  "display_name": "治疗 II（示例兼容定义）",
+  "property_modifiers": [],
+  "potion_effects": [
+    {
+      "effect": "minecraft:instant_health",
+      "duration_ticks": 1,
+      "amplifier": 1,
+      "ambient": false,
+      "show_particles": true,
+      "show_icon": true
+    }
+  ]
+}

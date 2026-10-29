@@ -1,0 +1,9 @@
+{
+  "id": "example:traveler_mortar",
+  "type": "talchemy:station",
+  "block": "example:traveler_mortar_block",
+  "display_name": "旅行研钵",
+  "process": "example:process_b",
+  "tier_enabled": true,
+  "tier": "talchemy:traveler"
+}

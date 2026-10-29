@@ -1,0 +1,33 @@
+{
+  "id": "talchemy:distillation",
+  "type": "talchemy:process",
+  "stages": [
+    {
+      "id": "heating",
+      "duration_ticks": 40,
+      "failure_chance": 0.01,
+      "modifiers": [],
+      "display_name": "蒸馏"
+    },
+    {
+      "id": "vaporization",
+      "duration_ticks": 60,
+      "failure_chance": 0.02,
+      "modifiers": [],
+      "display_name": "蒸馏"
+    },
+    {
+      "id": "condensation",
+      "duration_ticks": 40,
+      "failure_chance": 0.01,
+      "modifiers": [],
+      "display_name": "蒸馏"
+    }
+  ],
+  "failure": {
+    "chance": 0.02,
+    "output": "minecraft:glass",
+    "output_count": 1
+  },
+  "display_name": "蒸馏"
+}

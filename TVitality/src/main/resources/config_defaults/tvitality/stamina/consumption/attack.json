@@ -1,0 +1,7 @@
+{
+  "id": "tvitality:attack",
+  "type": "tvitality:stamina_consumption",
+  "action": "attack",
+  "enabled": true,
+  "amount": 1
+}

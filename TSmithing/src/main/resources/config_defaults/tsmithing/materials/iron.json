@@ -1,0 +1,12 @@
+{
+  "id": "tsmithing:iron",
+  "type": "tsmithing:material",
+  "display_name": "铁",
+  "properties": {
+    "tsmithing:durability": 300,
+    "tsmithing:softness": 0,
+    "tsmithing:toughness": 15,
+    "tsmithing:hardness": 20,
+    "tsmithing:weight": 10
+  }
+}

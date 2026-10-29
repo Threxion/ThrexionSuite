@@ -1,0 +1,6 @@
+{
+  "id": "talchemy:heal",
+  "type": "talchemy:potency",
+  "display_name": "治疗药力",
+  "unit_value": 100
+}

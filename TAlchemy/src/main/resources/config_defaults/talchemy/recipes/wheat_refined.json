@@ -1,0 +1,15 @@
+{
+  "id": "talchemy:wheat_refined",
+  "type": "talchemy:recipe",
+  "process": "talchemy:distillation",
+  "is_medicine": false,
+  "input": "minecraft:wheat",
+  "input_count": 1,
+  "output": "minecraft:wheat",
+  "output_count": 1,
+  "transfer_mode": "all",
+  "remove_properties": [
+    "tallergen:wheat"
+  ],
+  "property_modifiers": []
+}

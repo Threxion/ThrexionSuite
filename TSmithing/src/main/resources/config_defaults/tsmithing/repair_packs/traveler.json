@@ -1,0 +1,9 @@
+{
+  "id": "tsmithing:traveler_repair_pack",
+  "type": "tsmithing:repair_pack",
+  "display_name": "旅行维修包",
+  "item": "tsmithing:traveler_repair_pack",
+  "repair_amount": 35,
+  "repair_cost_multiplier": 1.2,
+  "over_spec_armor": false
+}

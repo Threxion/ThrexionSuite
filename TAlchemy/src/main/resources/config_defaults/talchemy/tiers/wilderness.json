@@ -1,0 +1,17 @@
+{
+  "id": "talchemy:wilderness",
+  "type": "talchemy:process_tier",
+  "display_name": "荒野",
+  "failure_chance_multiplier": 1.50,
+  "batch_count": 1,
+  "recipe_allowed": true,
+  "property_modifiers": [
+    {
+      "property": "talchemy:toxicity",
+      "operation": "random_add",
+      "amount": 0.10,
+      "min": 0.00,
+      "max": 0.20
+    }
+  ]
+}

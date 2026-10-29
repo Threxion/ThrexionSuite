@@ -1,0 +1,12 @@
+{
+  "container.tvitality.doctor": "医师诊疗",
+  "gui.tvitality.confirm": "确认治疗",
+  "gui.tvitality.back": "返回",
+  "gui.tvitality.all": "全部治疗",
+  "gui.tvitality.prev": "上一页",
+  "gui.tvitality.next": "下一页",
+  "command.tvitality.doctor.opened": "已打开医师诊断界面。",
+  "command.tvitality.injury.added": "已添加测试伤口：%s",
+  "command.tvitality.injury.unknown": "未知伤口定义：%s",
+  "command.tvitality.player_offline": "目标玩家当前不在线。"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "talchemystations:mortar",
+  "type": "talchemy:station",
+  "block": "talchemystations:mortar",
+  "display_name": "研钵",
+  "process": "talchemy:grinding",
+  "tier_enabled": true,
+  "tier": "talchemy:wilderness",
+  "time_multiplier": 1.0
+}

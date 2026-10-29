@@ -1,0 +1,9 @@
+{
+  "id": "talchemy:workshop",
+  "type": "talchemy:process_tier",
+  "display_name": "工坊",
+  "failure_chance_multiplier": 0.20,
+  "batch_count": 3,
+  "recipe_allowed": true,
+  "property_modifiers": []
+}

@@ -1,0 +1,59 @@
+{
+  "id": "wheat",                        // 过敏原 id（需与文件名一致）
+  // 可输入：任意合法的字符串，用于显示；不参与内部匹配。
+  "display_name": "Wheat",              // 显示名称
+  "reaction_id": "wheat_reaction",      // 对应的反应 id（需与 reactions/ 目录下的反应文件 id 对应）
+
+  "initial_allergy_chance": 0.05,         // 初始过敏概率（数值%）：0.05=5%
+  // 可输入：0.0~1.0 的小数。0.05=5%，1.0=100%。
+
+  "foods": [                              // 直接携带该过敏原的物品 id 列表（Recipe Scanner 的种子）
+    "minecraft:wheat"
+  ],
+  // 可输入：任意合法的 Minecraft/Mod 物品 id；多个物品可继续添加。
+
+  "exposure_max": 5,                     // 暴露值上限
+  // 可输入：任意 >= 0 的数值。1.0 = 一单位暴露；5 = 最多累计五单位。
+
+  "decay_interval_ticks": 600,           // 暴露衰减间隔（tick）
+  // 可输入：>= 1 的整数。20 tick = 1 秒。
+
+  "decay_amount": 1,                      // 每次衰减的暴露值
+  // 可输入：>= 0 的数值；例如 0.5 表示每次减少半单位。
+
+  "min_exposure": 0,                      // 暴露下限
+  // 可输入：>= 0 的数值。通常设为 0；TAllergen 不会低于此值。
+
+  "severity_max": 3,                      // 最高严重度
+  // 可输入：>= 1 的整数，例如 1、2、3、5。
+
+  "severity_start": 1,                    // 起始严重度
+  // 可输入：1~severity_max 之间的整数。
+
+  "latency_min_ticks": 200,               // 潜伏期下限（tick）
+  // 可输入：>= 0 的整数。
+
+  "latency_max_ticks": 600,               // 潜伏期上限（tick）
+  // 可输入：>= latency_min_ticks 的整数。
+
+  "latency_per_exposure": 0.05,           // 每点暴露缩短潜伏期的比例
+  // 可输入：0.0~1.0。0.05=5%。实际乘数为 1 - exposure * 此值。
+
+  "latency_minimum_multiplier": 0.25,     // 潜伏期最小乘数
+  // 可输入：0.0~1.0。0.25=25%，用于防止潜伏期被暴露无限缩短。
+
+  "severity_per_exposure": 0.02,          // 每点暴露累加到恶化概率的比例
+  // 可输入：0.0~1.0。0.02=2%。
+
+  "severity_maximum_chance": 0.9,          // 恶化概率上限
+  // 可输入：0.0~1.0。0.9=90%。
+
+  "severity_base_upgrade_chance": 0.2,     // 恶化基础概率
+  // 可输入：0.0~1.0。0.2=20%。
+
+  "active_duration_ticks": 400,             // ACTIVE 默认持续时间（tick）
+  // 可输入：>= 0 的整数；reaction 的 severity level 未指定时使用此值。
+
+  "attribute_modifier_uuid": "tallergen:wheat" // 属性修改器标识
+  // 可输入：任意稳定字符串。最终由 TAllergen 与 attribute id 一起派生固定 UUID。
+}

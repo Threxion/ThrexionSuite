@@ -1,0 +1,10 @@
+{
+  "id": "tvitality:cut",
+  "type": "tvitality:injury",
+  "display_name": "割伤",
+  "severity": 1,
+  "doctor_treatment": {
+    "enabled": true,
+    "cost": {"item": "minecraft:gold_ingot", "count": 1}
+  }
+}

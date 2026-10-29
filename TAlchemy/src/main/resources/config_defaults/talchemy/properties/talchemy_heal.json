@@ -1,0 +1,11 @@
+{
+  "id": "talchemy:heal",
+  "type": "number",
+  "default": 0,
+  "min": 0,
+  "max": 500,
+  "modifiable": true,
+  "persistent": true,
+  "hidden": false,
+  "description": "治疗药力。默认约 100 点药力 = 1 个药力单位；具体反应阈值由 talchemy:reaction 自定义。"
+}

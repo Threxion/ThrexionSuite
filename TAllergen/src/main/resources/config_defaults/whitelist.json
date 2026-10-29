@@ -1,0 +1,5 @@
+{
+  "_comment": "白名单：enabled=true 且 items 非空时，只扫描 items 中的物品，其余物品一律不进 Recipe Scanner（收紧扫描范围）；items 为空（默认）表示不限制，扫描全部不在黑名单的物品。用法：向 items 填物品 id（ResourceLocation 格式，如 \"minecraft:bread\"），改完执行 /tallergen scan 生效；也可用命令 /tallergen whitelist add|remove <item> 维护（命令会写回本文件）。示例：{ \"enabled\": true, \"items\": [\"minecraft:bread\", \"minecraft:cake\"] }。enabled=false 时白名单不生效。",
+  "enabled": true,
+  "items": []
+}

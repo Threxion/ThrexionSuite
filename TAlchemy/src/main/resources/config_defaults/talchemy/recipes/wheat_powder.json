@@ -1,0 +1,18 @@
+{
+  "id": "talchemy:wheat_powder",
+  "type": "talchemy:recipe",
+  "process": "talchemy:grinding",
+  "is_medicine": false,
+  "input": "minecraft:wheat",
+  "input_count": 1,
+  "output": "talchemy:herbal_powder",
+  "output_count": 1,
+  "transfer_mode": "all",
+  "property_modifiers": [
+    {
+      "property": "tallergen:wheat",
+      "operation": "multiply",
+      "amount": 0.8
+    }
+  ]
+}

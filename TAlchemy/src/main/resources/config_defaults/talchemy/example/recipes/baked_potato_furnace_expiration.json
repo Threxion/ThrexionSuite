@@ -1,0 +1,12 @@
+{
+  "id": "talchemy:example_baked_potato_furnace_expiration",
+  "type": "talchemy:recipe",
+  "process": "example:furnace_cooking",
+  "is_medicine": false,
+  "input": "minecraft:potato",
+  "input_count": 1,
+  "output": "minecraft:baked_potato",
+  "output_count": 1,
+  "expiration_days": 7,
+  "show_expiration_in_lore": true
+}

@@ -1,0 +1,10 @@
+{
+  "id": "tvitality:apple_snack",
+  "type": "tvitality:food",
+  "enabled": true,
+  "item": "minecraft:apple",
+  "category": "snack",
+  "duration_seconds": 300,
+  "stamina_restore": 0,
+  "effects": []
+}

@@ -1,0 +1,78 @@
+{
+  "_usage_comment": "反应（reaction）配置文件格式范例，对应 config/tallergen/reactions/ 目录下的文件。把此文件内容复制为 reactions/<你的id>.json 即可生效（id 需与文件名一致），并被 allergen 配置的 reaction_id 引用。改完执行 /tallergen scan 重新加载。注意：本文件中的 // 注释仅用于说明，复制使用时必须全部删除，否则 JSON 解析会失败。",
+  "id": "wheat_reaction",                 //反应名称（需与文件名一致）
+  "allergen_id": "wheat",                 //对应的过敏原id
+  "recovery_duration_ticks": 600,         //恢复所需要的tick
+  "refresh_effects_on_repeat_ingest": true, // ACTIVE 中重复摄入且未升级时，刷新当前 Severity 的 Effect 持续时间
+  "severity_levels": [                    //严重度（按 severity 从低到高排列）
+    {
+      "severity": 1,                      //严重度为1
+      "duration_ticks": 400,              //阶段持续时间 400tick
+      "effects": [                        //效果
+        {
+          "effect": "minecraft:hunger",   //药水效果id
+          "amplifier": 0,                 //药水效果的等级-1=0
+          "duration_ticks": 400           //药水持续时间
+        }
+      ],
+      "attributes": [                     //玩家属性修改
+        {
+          "attribute": "minecraft:generic.movement_speed",  //属性id
+          "amount": -0.05,                //属性修改数值（数值%，见下方 operation 选择算法）
+          "operation": "multiply_base"    //如何计算: addition=加法 / multiply_base=乘法(基于基础值) / multiply_total=乘法(基于总值)，数值需配合乘法时按百分比填（如 -0.05 = -5%）
+        }
+      ]
+    },
+    {
+      "severity": 2,                      //严重度为2
+      "duration_ticks": 600,              //阶段持续时间 600tick
+      "effects": [                        //效果
+        {
+          "effect": "minecraft:hunger",   //药水效果id
+          "amplifier": 1,                 //药水效果的等级-1=1
+          "duration_ticks": 600           //药水持续时间
+        },
+        {
+          "effect": "minecraft:nausea",   //药水效果id
+          "amplifier": 0,                 //药水效果的等级-1=0
+          "duration_ticks": 300           //药水持续时间
+        }
+      ],
+      "attributes": [                     //玩家属性修改
+        {
+          "attribute": "minecraft:generic.movement_speed",  //属性id
+          "amount": -0.15,                //属性修改数值（数值%）
+          "operation": "multiply_base"    //如何计算: addition=加法 / multiply_base=乘法(基于基础值) / multiply_total=乘法(基于总值)
+        }
+      ]
+    },
+    {
+      "severity": 3,                      //严重度为3
+      "duration_ticks": 800,              //阶段持续时间 800tick
+      "effects": [                        //效果
+        {
+          "effect": "minecraft:hunger",   //药水效果id
+          "amplifier": 2,                 //药水效果的等级-1=2
+          "duration_ticks": 800           //药水持续时间
+        },
+        {
+          "effect": "minecraft:nausea",   //药水效果id
+          "amplifier": 1,                 //药水效果的等级-1=1
+          "duration_ticks": 400           //药水持续时间
+        },
+        {
+          "effect": "minecraft:poison",   //药水效果id
+          "amplifier": 0,                 //药水效果的等级-1=0
+          "duration_ticks": 200           //药水持续时间
+        }
+      ],
+      "attributes": [                     //玩家属性修改
+        {
+          "attribute": "minecraft:generic.movement_speed",  //属性id
+          "amount": -0.3,                 //属性修改数值（数值%）
+          "operation": "multiply_base"    //如何计算: addition=加法 / multiply_base=乘法(基于基础值) / multiply_total=乘法(基于总值)
+        }
+      ]
+    }
+  ]
+}

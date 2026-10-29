@@ -1,0 +1,7 @@
+{
+  "id": "tvitality:farm",
+  "type": "tvitality:stamina_consumption",
+  "action": "farm",
+  "enabled": true,
+  "amount": 5
+}

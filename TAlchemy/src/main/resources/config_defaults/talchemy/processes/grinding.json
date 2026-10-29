@@ -1,0 +1,20 @@
+{
+  "id": "talchemy:grinding",
+  "type": "talchemy:process",
+  "time": 40,
+  "stages": [
+    {
+      "id": "grinding",
+      "duration_ticks": 40,
+      "failure_chance": 0.0,
+      "modifiers": [],
+      "display_name": "打磨"
+    }
+  ],
+  "failure": {
+    "chance": 0.0,
+    "output": "",
+    "output_count": 1
+  },
+  "display_name": "打磨"
+}

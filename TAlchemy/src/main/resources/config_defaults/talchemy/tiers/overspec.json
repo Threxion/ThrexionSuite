@@ -1,0 +1,9 @@
+{
+  "id": "talchemy:overspec",
+  "type": "talchemy:process_tier",
+  "display_name": "超规格",
+  "failure_chance_multiplier": 0.0,
+  "batch_count": 1,
+  "recipe_allowed": false,
+  "property_modifiers": []
+}

@@ -1,0 +1,11 @@
+{
+  "id": "talchemy:anti_allergy",
+  "type": "number",
+  "default": 0,
+  "min": 0,
+  "max": 500,
+  "modifiable": true,
+  "persistent": true,
+  "hidden": false,
+  "description": "抗过敏药力；具体治疗对象由 TAllergen 等 Mod 通过 effect property_modifiers 自定义。"
+}

@@ -1,0 +1,10 @@
+{
+  "id": "example:herbal_medicine",
+  "type": "talchemy:recipe",
+  "process": "example:process_a",
+  "is_medicine": true,
+  "input": "example:herb",
+  "input_count": 1,
+  "output": "example:medicine",
+  "output_count": 1
+}

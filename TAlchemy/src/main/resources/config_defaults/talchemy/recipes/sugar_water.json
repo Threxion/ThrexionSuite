@@ -1,0 +1,18 @@
+{
+  "id": "talchemy:sugar_water",
+  "type": "talchemy:recipe",
+  "process": "talchemy:grinding",
+  "is_medicine": false,
+  "input": "minecraft:sugar_cane",
+  "input_count": 1,
+  "container_input": "minecraft:glass_bottle",
+  "container_input_count": 1,
+  "output": "minecraft:sugar",
+  "output_count": 1,
+  "byproduct": "minecraft:potion",
+  "byproduct_count": 1,
+  "byproduct_potion": "minecraft:water",
+  "processing_time_ticks": 160,
+  "time_multiplier": 1.0,
+  "transfer_mode": "none"
+}

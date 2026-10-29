@@ -1,0 +1,8 @@
+{
+  "id": "tsmithing:wood",
+  "type": "tsmithing:material",
+  "display_name": "木",
+  "properties": {
+    "tsmithing:weight": 2
+  }
+}

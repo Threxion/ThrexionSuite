@@ -1,0 +1,6 @@
+{
+  "id": "example:process_a",
+  "type": "talchemy:process",
+  "display_name": "荒野研磨",
+  "time": 40
+}

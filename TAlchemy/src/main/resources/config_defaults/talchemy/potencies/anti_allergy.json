@@ -1,0 +1,6 @@
+{
+  "id": "talchemy:anti_allergy",
+  "type": "talchemy:potency",
+  "display_name": "抗过敏药力",
+  "unit_value": 100
+}

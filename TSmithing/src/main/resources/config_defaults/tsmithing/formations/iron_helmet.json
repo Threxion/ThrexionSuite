@@ -1,0 +1,16 @@
+{
+  "id": "tsmithing:iron_helmet",
+  "type": "tsmithing:formation",
+  "display_name": "铁头盔",
+  "result_item": "minecraft:iron_helmet",
+  "materials": [
+    {"item": "minecraft:iron_ingot", "material": "tsmithing:iron", "count": 5}
+  ],
+  "tqeff": {
+    "tsmithing:softness": 100,
+    "tsmithing:toughness": 100,
+    "tsmithing:hardness": 100,
+    "tsmithing:weight": 100,
+    "tsmithing:durability": 100
+  }
+}

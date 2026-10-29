@@ -1,0 +1,9 @@
+{
+  "id": "tsmithing:wilderness_repair_pack",
+  "type": "tsmithing:repair_pack",
+  "display_name": "荒野维修包",
+  "item": "tsmithing:wilderness_repair_pack",
+  "repair_amount": 20,
+  "repair_cost_multiplier": 1.5,
+  "over_spec_armor": true
+}

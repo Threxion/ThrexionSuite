@@ -1,0 +1,11 @@
+{
+  "id": "tquality:default",
+  "type": "tquality:grade",
+  "display_name": "默认品质",
+  "grades": [
+    {"id": "D", "display_name": "D", "order": 0, "properties": {"tquality:quality_multiplier": 1.0}},
+    {"id": "C", "display_name": "C", "order": 1, "properties": {"tquality:quality_multiplier": 1.0}},
+    {"id": "B", "display_name": "B", "order": 2, "properties": {"tquality:quality_multiplier": 1.0}},
+    {"id": "A", "display_name": "A", "order": 3, "properties": {"tquality:quality_multiplier": 1.0}}
+  ]
+}

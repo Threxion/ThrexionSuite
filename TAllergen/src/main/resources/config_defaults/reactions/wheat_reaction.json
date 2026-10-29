@@ -1,0 +1,77 @@
+{
+  "id": "wheat_reaction",
+  "allergen_id": "wheat",
+  "recovery_duration_ticks": 600,
+  "refresh_effects_on_repeat_ingest": true, // ACTIVE 中重复摄入且未升级时，刷新当前 Severity 的 Effect 持续时间
+  "severity_levels": [
+    {
+      "severity": 1,
+      "duration_ticks": 400,
+      "effects": [
+        {
+          "effect": "minecraft:hunger",
+          "amplifier": 0,
+          "duration_ticks": 400
+        }
+      ],
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": -0.05,
+          "operation": "multiply_base"
+        }
+      ]
+    },
+    {
+      "severity": 2,
+      "duration_ticks": 600,
+      "effects": [
+        {
+          "effect": "minecraft:hunger",
+          "amplifier": 1,
+          "duration_ticks": 600
+        },
+        {
+          "effect": "minecraft:nausea",
+          "amplifier": 0,
+          "duration_ticks": 300
+        }
+      ],
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": -0.15,
+          "operation": "multiply_base"
+        }
+      ]
+    },
+    {
+      "severity": 3,
+      "duration_ticks": 800,
+      "effects": [
+        {
+          "effect": "minecraft:hunger",
+          "amplifier": 2,
+          "duration_ticks": 800
+        },
+        {
+          "effect": "minecraft:nausea",
+          "amplifier": 1,
+          "duration_ticks": 400
+        },
+        {
+          "effect": "minecraft:poison",
+          "amplifier": 0,
+          "duration_ticks": 200
+        }
+      ],
+      "attributes": [
+        {
+          "attribute": "minecraft:generic.movement_speed",
+          "amount": -0.3,
+          "operation": "multiply_base"
+        }
+      ]
+    }
+  ]
+}

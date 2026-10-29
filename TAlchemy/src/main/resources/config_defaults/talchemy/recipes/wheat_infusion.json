@@ -1,0 +1,54 @@
+{
+  "id": "talchemy:wheat_infusion",
+  "type": "talchemy:recipe",
+  "process": "talchemy:infusion",
+  "is_medicine": true,
+  "input": "talchemy:herbal_powder",
+  "input_count": 1,
+  "output": "talchemy:alchemy_potion",
+  "output_count": 1,
+  "transfer_mode": "all",
+  "property_modifiers": [
+    {
+      "property": "talchemy:heal",
+      "operation": "add",
+      "amount": 90
+    }
+  ],
+  "quality_effects": {
+    "enabled": true,
+    "grade_order": [
+      "D",
+      "C",
+      "B",
+      "A"
+    ],
+    "rules": [
+      {
+        "input_grade": "D",
+        "output_count_delta": -1,
+        "grade_delta": 0
+      },
+      {
+        "input_grade": "C",
+        "output_count_delta": 0,
+        "grade_delta": 0
+      },
+      {
+        "input_grade": "B",
+        "output_count_delta": 0,
+        "grade_delta": 0
+      },
+      {
+        "input_grade": "A",
+        "output_count_delta": 1,
+        "grade_delta": 1
+      }
+    ]
+  },
+  "expiration_days": 7,
+  "expired_behavior": "add_potency",
+  "expired_potency_property": "talchemy:toxicity",
+  "expired_potency_amount": 20,
+  "show_expiration_in_lore": true
+}

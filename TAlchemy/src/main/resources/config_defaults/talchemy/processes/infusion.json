@@ -1,0 +1,27 @@
+{
+  "id": "talchemy:infusion",
+  "type": "talchemy:process",
+  "time": 120,
+  "stages": [
+    {
+      "id": "steeping",
+      "duration_ticks": 80,
+      "failure_chance": 0.05,
+      "modifiers": [],
+      "display_name": "浸泡"
+    },
+    {
+      "id": "settling",
+      "duration_ticks": 40,
+      "failure_chance": 0.02,
+      "modifiers": [],
+      "display_name": "浸泡"
+    }
+  ],
+  "failure": {
+    "chance": 0.05,
+    "output": "minecraft:glass_bottle",
+    "output_count": 1
+  },
+  "display_name": "浸泡"
+}

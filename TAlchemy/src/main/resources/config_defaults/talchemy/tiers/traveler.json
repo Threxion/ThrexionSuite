@@ -1,0 +1,17 @@
+{
+  "id": "talchemy:traveler",
+  "type": "talchemy:process_tier",
+  "display_name": "旅行",
+  "failure_chance_multiplier": 1.20,
+  "batch_count": 1,
+  "recipe_allowed": true,
+  "property_modifiers": [
+    {
+      "property": "talchemy:heal",
+      "operation": "random_multiply",
+      "amount": 1.00,
+      "min": 0.70,
+      "max": 1.30
+    }
+  ]
+}

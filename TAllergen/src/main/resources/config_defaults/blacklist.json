@@ -1,0 +1,5 @@
+{
+  "_comment": "黑名单：命中 items 中任一物品 id 的物品不会参与 Recipe Scanner（不扫描、不沿配方传播过敏原，视为不含过敏原）。blacklist 恒优先于 whitelist。用法：向 items 填物品 id（ResourceLocation 格式，如 \"minecraft:cake\"），改完执行 /tallergen scan 生效；也可用命令 /tallergen blacklist add|remove <item> 维护（命令会写回本文件）。示例：{ \"enabled\": true, \"items\": [\"minecraft:milk_bucket\", \"minecraft:cake\"] }。enabled=false 时整张黑名单失效。",
+  "enabled": true,
+  "items": []
+}

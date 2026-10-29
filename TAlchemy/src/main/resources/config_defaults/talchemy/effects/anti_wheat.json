@@ -1,0 +1,13 @@
+{
+  "id": "talchemy:anti_wheat",
+  "type": "talchemy:effect",
+  "display_name": "降低小麦过敏暴露",
+  "property_modifiers": [
+    {
+      "property": "tallergen:wheat",
+      "operation": "add",
+      "amount": -0.20
+    }
+  ],
+  "potion_effects": []
+}

@@ -1,0 +1,9 @@
+{
+  "id": "talchemy:heal_1",
+  "type": "talchemy:reaction",
+  "display_name": "治疗 1",
+  "potency": "talchemy:heal",
+  "threshold": 90,
+  "effect": "talchemy:healing_1",
+  "priority": 0
+}

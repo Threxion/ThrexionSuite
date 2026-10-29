@@ -1,0 +1,12 @@
+{
+  "id": "talchemy:example_immediately_expired_item",
+  "type": "talchemy:recipe",
+  "process": "example:crafting",
+  "is_medicine": false,
+  "input": "minecraft:apple",
+  "input_count": 1,
+  "output": "minecraft:golden_apple",
+  "output_count": 1,
+  "expiration_days": 0,
+  "show_expiration_in_lore": true
+}
